@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <title>Pop Up Trivia</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Scoreboard</a>
-            <a href="#">Categories</a>
+        <nav class="navbar">
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="#" class="navbar-item">Home</a>
+                    <a href="#" class="navbar-item">Scoreboard</a>
+                    <a href="#" class="navbar-item">Categories</a>
+                </div>
+                <div class="navbar-end">
+                    <button class="button is-primary toggle">Toggle</button>
+                </div>
+            </div>
         </nav>
-        <button class="toggle">Toggle</button>
     </header>
-    <main>
-        <div class="title">Pop Up Trivia!</div>
-        <div class="subtitle">Game Developed By: Aaron, Mahdi, Jason, & Scott</div>
-        <select class="dropdown">
-            <option>Categories: Drop Down Menu</option>
-        </select>
+
+    <main class="section is-fullheight">
+        <div class="title has-text-centered">Pop Up Trivia!</div>
+        <div class="subtitle has-text-centered">Game Developed By: Aaron, Mahdi, Jason, & Scott</div>
+        <div class="select is-fullwidth">
+            <select>
+                <option>Categories: Drop Down Menu</option>
+            </select>
+        </div>
         <br>
-        <a href="#" class="start-button">START</a>
-        <div class="info">
-            Text about the game and how the rules work. 
+        <a href="#" class="button is-large is-primary is-fullwidth">START</a>
+        <div class="content">
+            <p>Text about the game and how the rules work.</p>
         </div>
     </main>
 </body>

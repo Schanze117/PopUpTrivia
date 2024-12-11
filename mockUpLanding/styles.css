@@ -11,6 +11,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 header {
@@ -22,6 +23,12 @@ header {
 }
 
 header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav .navbar-start {
     display: flex;
     gap: 10px;
 }
@@ -35,7 +42,6 @@ header nav a {
 }
 
 header .toggle {
-    margin-right: 20px;
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -46,6 +52,11 @@ header .toggle {
 
 main {
     padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -60,7 +71,7 @@ main {
     margin-bottom: 20px;
 }
 
-.dropdown {
+.select {
     margin: 20px 0;
     background-color: #fff;
     color: #000;
@@ -82,7 +93,7 @@ main {
     text-decoration: none;
 }
 
-.info {
+.content {
     margin-top: 20px;
     background-color: #fff;
     color: #000;
