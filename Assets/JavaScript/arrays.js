@@ -47,11 +47,4 @@ const harryPotter1q10 = {
     question: 'What is the name of someone born into the wizarding world who CANNOT do magic?',
     selection: ['A. Muggle', 'B. Squib', 'C. Mudblood', 'D. Noob'],
     answer: 'C. Mudblood'
-<<<<<<< HEAD
 }
-=======
-}
-
-//testing commit//
-//testing commit2//
->>>>>>> be006abd9a8638434d298883368bb5954ab63992

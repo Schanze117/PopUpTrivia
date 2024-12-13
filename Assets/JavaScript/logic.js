@@ -1,1 +1,1 @@
-console.log()
+function showTrivia ()
