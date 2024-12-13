@@ -49,5 +49,3 @@ const harryPotter1q10 = {
     answer: 'C. Mudblood'
 }
 
-//testing commit//
-//testing commit2//
