@@ -113,29 +113,28 @@ main {
     }
 }
 
-.next-button {
-    position: fixed;
-    bottom: 45px;  
-    right: 20px;   
-    font-size: 15px;
-    padding: 10px 15px; 
-    background-color: #00d1b2;
+.invisibleBox {
+    background-color: #4caf50;
     color: #fff;
     border: none;
+    padding: 15px;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    opacity: 0.8;
-    z-index: 100; 
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
 }
-
-.next-button:hover {
-    background-color: #20c997;
-    opacity: 1;
-}
-
-.next-button:disabled {
-    background-color: #888;
-    cursor: not-allowed;
-    opacity: 0.5;
+.answer {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    text-align: center;
 }

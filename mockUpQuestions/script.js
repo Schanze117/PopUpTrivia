@@ -47,18 +47,3 @@ startTimer();
 
 //make it so once picking an option timer countinues to next question
 //fix getting infinte time after slecting an option 
-var div =document.getElementById('invisibleBox');
-var display = 0;
-
-
-function showAnswer(){
-    if(display == 1){
-        div.style.display = 'none';
-        display = 0;
-    }
-    else{
-        div.style.display = 'block';
-        div.style.visibility = 'visible';
-        display = 1;
-    }
-}
