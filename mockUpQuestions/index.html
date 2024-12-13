@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trivia Game Placeholder</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 </head>
 <body>
     <div class="trivia-container">
-        <header>
-            <h1>Placeholder Trivia</h1>
-            <div class="question-progress">1/5</div>
+        <header class="navbar is-transparent">
+            <div class="navbar-brand">
+                <h1 class="title">Placeholder Trivia</h1>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item question-progress">1/5</div>
+            </div>
         </header>
-        <main>
+        <main class="container">
             <div class="question-area">
                 <p>Put blank text here for my question?</p>
             </div>
             <div class="options-area">
-                <button class="option">Option 1</button>
-                <button class="option">Option 2</button>
-                <button class="option">Option 3</button>
-                <button class="option">Option 4</button>
+                <button class="button is-success option">Option 1</button>
+                <button class="button is-success option">Option 2</button>
+                <button class="button is-success option">Option 3</button>
+                <button class="button is-success option">Option 4</button>
             </div>
         </main>
         <div class="timer-bar">
             <div class="timer-fill"></div>
         </div>
+        <button class="next-button">Next</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
