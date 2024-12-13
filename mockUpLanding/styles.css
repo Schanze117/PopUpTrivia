@@ -64,6 +64,8 @@ main {
     font-weight: bold;
     margin-bottom: 10px;
     text-decoration: underline;
+    color: #000;
+    
 }
 
 .subtitle {
@@ -100,3 +102,44 @@ main {
     padding: 20px;
     border-radius: 5px;
 }
+
+/* Jason darkMode */
+.darkMode{
+    font-family: Arial, sans-serif;
+    background-color: #032435;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: aqua;
+
+}
+button is-primary toggle{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/*#button is-primary toggle svg{
+    display: none;
+}
+
+#button is-primary toggle svg:last-child{
+    display: none;
+}
+
+.darkMode #button is-primary toggle svg:first-child{
+    display: none;
+}
+
+.darkMode #button is-primary toggle svg:last-child{
+    display: block;
+}*/
