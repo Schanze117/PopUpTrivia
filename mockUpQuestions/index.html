@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trivia Game Placeholder</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"> -->
+    <script defer src="./Assets/JavaScript/arrays.js" type="text/javascript"></script>
 </head>
+
 <body>
     <div class="trivia-container">
         <header class="navbar is-transparent">
@@ -19,13 +22,9 @@
         </header>
         <main class="container">
             <div class="question-area">
-                <p>Put blank text here for my question?</p>
-            </div>
-            <div class="options-area">
-                <button class="button is-success option">Option 1</button>
-                <button class="button is-success option">Option 2</button>
-                <button class="button is-success option">Option 3</button>
-                <button class="button is-success option">Option 4</button>
+            <div id="question" class="question-area"></div>
+            <form id="answers"></form>
+            <button style=margin:0% id="nextQuestion">SUBMIT</button>
             </div>
         </main>
         <div class="timer-bar">
@@ -33,4 +32,5 @@
         </div>
     </div>
 </body>
+
 </html>
