@@ -6,14 +6,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('PopUpTrivia/mockUpLanding/images/trivia game image 2.png');
-    background-size: contain;
+    background-image: url('./images/trivia game image 2.png');
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 100vh;
+    
 
     
-    background-color: #336B87;
+   /* background-color: #336B87;*/
     
     
     color: #fff;
@@ -22,9 +22,9 @@ body {
     padding: 0;
     height: 100vh;
 }
-backgroundimg{
+
         
-    }
+
 
 
 header {
@@ -121,7 +121,8 @@ main {
 
      
     font-family: Arial, sans-serif;
-    background-color: #032435;
+    background-image: url('./images/trivia game image 2.png');
+    filter: brightness(50%) ;
     color: #fff;
     text-align: center;
     margin: 0;
