@@ -14,12 +14,16 @@ This project is to create a working app for trivia quiz game including many diff
 Html: used to structure the web pages and content
 Css: used for styling and enhancing the visual appearance of the game.
 JavaScript: implemented the logic and interactivly of the quiz game.
+APIs
+Bulma
 
 # Project homepage
 
-git clone https: links links links
+https://github.com/Schanze117/PopUpTrivia
 
 # Project documentation url
+
+https://github.com/Schanze117/PopUpTrivia
 
 # How to play the games
 
@@ -28,7 +32,7 @@ Choose the Category you want to do the quiz on
 Click on Start to begin the game
 Read each question carefully and select the answer you think is correct before the time run out.
 Continue answering questions until ou reach the end of the quiz.
-At the end of the quiz, you will see the score
+At the end of the quiz, you will see the score.
 
 # Author name
 
