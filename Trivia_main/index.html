@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Up Trivia</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="#" class="navbar-item">Home</a>
+                    <a href="#" class="navbar-item">Scoreboard</a>
+                    <a href="#" class="navbar-item">Categories</a>
+                </div>
+                <div class="navbar-end">
+                    <button class="toggle-btn" id="toggleModeBtn">
+                        Toggle Mode
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="title">Pop Up Trivia!</div>
+        <div class="subtitle">Game Developed By: Aaron, Mahdi, Jason, & Scott</div>
+        <div class="select">
+            <select id="categorySelect">
+                <option value="" disabled selected>Categories: Drop Down Menu</option>
+                <option value="sports">Sports</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+                <option value="movies">Movies</option>
+                <option value="music">Music</option>
+            </select>
+        </div>
+        
+        <a href="#" class="start-button">START</a>
+    </main>
+
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup box">
+            <p>How to Play Trivia Game<br>
+                <br>
+
+                Objective:<br>
+
+                Your goal is simple: answer as many trivia questions correctly as you can to rack up points and claim the highest score!<br>
+                
+                Setup:<br>
+
+                
+                This is a single-player game.<br>
+
+                
+                You’ll face 10 multiple-choice questions based on your chosen category.<br>
+
+                
+                Questions will appear one at a time.<br>
+
+                
+                Rules:<br>
+
+                
+                Each question has a 30-second time limit.<br>
+
+                
+                If you don’t answer within the time limit, it’ll be marked as incorrect.<br>
+
+                
+                Points are awarded for each correct answer.<br>
+
+                
+                No points are given for incorrect answers.<br>
+
+                
+                External help (like using the internet or books) are not allowed.<br>
+
+                
+                Once you submit an answer, you can’t change it.  <br>
+
+                
+                Have fun, challenge yourself, and good luck!!!<br>
+
+                </p>
+            <button class="button is-danger" id="gameStartBtn">Start Game</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="landing.js" defer></script>
+</body>
+</html>
