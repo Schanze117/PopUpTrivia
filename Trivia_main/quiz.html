@@ -26,15 +26,27 @@
                 <button id="option2" class="button option">Option 2</button>
                 <button id="option3" class="button option">Option 3</button>
                 <button id="option4" class="button option">Option 4</button>
+                <button class="next-button">Next</button>
             </div>
             
             
         </main>
         <div class="timer-bar">
             <div class="timer-fill"></div>
-        </div>
-        <button class="next-button">Next</button>
-    </div>
     <script src="quiz.js"></script>
+
+    <div id="quiz-complete-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Quiz Complete!</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p id="final-score-text">Your final score: 0</p>
+          </section>
+        </div>
+      </div>
+  
 </body>
 </html>

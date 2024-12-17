@@ -190,12 +190,21 @@ nextButton.addEventListener("click", () => {
         showQuestion(state.currentQuestionIndex);
         startTimer();
     } else {
-        alert(`Quiz Complete! Final Score: ${state.score}`);
-        localStorage.clear();
-        state.score = 0;
-        state.currentQuestionIndex = 0;
-        updateScoreDisplay();
-    }
+        const modal = document.getElementById('quiz-complete-modal');
+        const finalScoreText = document.getElementById('final-score-text');
+        const modalCloseIcon = document.querySelector('.modal .delete');
+        finalScoreText.textContent = `Your final score: ${state.score} / 10`;
+        modal.classList.add('is-active');
+        const closeModal = () => {
+            modal.classList.remove('is-active');
+            localStorage.clear();
+            state.score = 0;
+            state.currentQuestionIndex = 0;
+            updateScoreDisplay();
+        }
+            modalCloseIcon.addEventListener('click', closeModal);
+            modal.querySelector('.modal-background').addEventListener('click', closeModal);
+        }
 });
 
 questions = shuffleArray(questions);
