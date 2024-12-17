@@ -207,6 +207,57 @@ const questions = [
         answers: ['Endor', 'Tattoine', 'Naboo', 'Kashyyyk'],
         correctAnswerIndex: 3,
     },
+    // 5th Grade Science 
+    {
+        question: 'Where does Sound travel the fastest?',
+        answers: ['Air', 'Space', 'Water', 'Rock'],
+        correctAnswerIndex: 2,
+    },
+    {
+        question: 'Which of these is not a rock type?',
+        answers: ['Magmamorphic', 'Sedimentary', 'Igneous', 'Metamorphic'],
+        correctAnswerIndex: 0,
+    },
+    {
+        question: 'Pollen is produced in which part of the flower?',
+        answers: ['Pistil', 'Stamen', 'Petal', 'Stem'],
+        correctAnswerIndex: 1,
+    },
+    {
+        question: 'How long does it take Light from the sun to reach earth?',
+        answers: ['8 minutes', '8 seconds', '8 hours', 'instantaneously'],
+        correctAnswerIndex: 0,
+    },
+    {
+        question: 'What is the most common gas in Earth`s Atmosphere?',
+        answers: ['Oxygen', 'Nitrogen', 'Carbon', 'Hydrogen'],
+        correctAnswerIndex: 1,
+    },
+    {
+        question: 'In classical mechanics, what is defined as the product of an object`s mass and velocity?',
+        answers: ['Kinetic Energy', 'Acceleration', 'Momentum', 'Force'],
+        correctAnswerIndex: 2,
+    },
+    {
+        question: 'Who discovered the double helix pattern in DNA?',
+        answers: ['Albert Einstein and Charles Darwin', 'James Watsons and Francis Crick', 'Albert Einstein and James Watsons', 'Francis Crick and Charles Darwin'],
+        correctAnswerIndex: 1,
+    },
+    {
+        question: 'What type of cloud that is large, puffy, and low flying?',
+        answers: ['Nimbus', 'Stratus', 'Cirrus', 'Cumulous'],
+        correctAnswerIndex: 3,
+    },
+    {
+        question: 'What kind of energy is stored inside an object?',
+        answers: ['Intrinsic', 'Potential', 'Kinetic', 'Ready-Made'],
+        correctAnswerIndex: 1,
+    },
+    {
+        question: 'What is the chemical symbol for Iron?',
+        answers: ['Ir', 'Io', 'Fe', 'Na'],
+        correctAnswerIndex: 2,
+    },
 ];
 
 function showQuestion(questionIndex) {
