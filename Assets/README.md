@@ -11,6 +11,7 @@ Popup Trivia Games
 This project is to create a working app for trivia quiz game including many different categories 
 
 # Technologies used
+
 Html: used to structure the web pages and content
 Css: used for styling and enhancing the visual appearance of the game.
 JavaScript: implemented the logic and interactivly of the quiz game.
