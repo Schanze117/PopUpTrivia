@@ -53,6 +53,10 @@ main {
     color: #ffcc00;
     border-radius: 10px;
     margin: 10px;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal; 
 }
 
 .question-area p {
@@ -68,24 +72,6 @@ main {
     align-items: flex-start;
     gap: 15px;
     padding-left: 20px;
-}
-
-.option {
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    width: 100%;
-    text-align: left;
-}
-
-.option:hover {
-    background-color: #81c784;
-    transform: scale(1.05);
 }
 
 .timer-bar {
@@ -112,3 +98,66 @@ main {
         width: 0%;
     }
 }
+
+.next-button {
+    position: fixed;
+    bottom: 45px; 
+    right: 20px;   
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #00d1b2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    opacity: 0.8;
+    z-index: 100; 
+}
+
+.next-button:hover {
+    background-color: #138563;
+    opacity: 1;
+}
+
+.next-button:disabled {
+    background-color: #888;
+    opacity: 0.5;
+}
+
+.option.correct {
+    background-color: #4caf50; 
+    color: white;
+}
+
+.option.incorrect {
+    background-color: #f44336; 
+    color: white;
+}
+
+.is-success {
+    background-color: #48c774 !important; 
+}
+
+.is-danger {
+    background-color: #f14668 !important; 
+}
+
+.option {
+    background-color: #0e0d0d; 
+    color: #fff; 
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    text-align: left;
+}
+
+.option:hover {
+    background-color: #81c784; 
+    transform: scale(1.05);
+}
+
