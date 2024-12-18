@@ -17,7 +17,7 @@ const setCategoryTitle = () => {
     }
 };
 
-const questions = {
+let questions = {
     "Harry Potter": [
       {
         question: 'In what year was the first Harry Potter movie released?',

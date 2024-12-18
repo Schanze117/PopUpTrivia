@@ -21,19 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const redirectPage = (url) => {
         location.assign(url);
     };
-
-    const setCategoryTitle = () => {
-        const category = localStorage.getItem('category'); 
-        const categoryTitle = document.getElementById('title');
-        if (category) {
-            categoryTitle.innerText = `${category.charAt(0).toUpperCase() + category.slice(1)} Trivia`;
-        } else {
-            categoryTitle.innerText = "General Trivia";
-            console.warn("Category not found in localStorage. Defaulting to 'General Trivia'.");
-        }
-    };
-
-    setCategoryTitle();
 });
 
 let darkMode = localStorage.getItem('darkMode')
