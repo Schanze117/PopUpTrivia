@@ -5,6 +5,7 @@
 }
 
 body {
+    background-image: url('resized_trivia_game_image.png');
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
@@ -21,8 +22,6 @@ body {
 }
 
 header {
-    background-color: #ffbf00;
-    padding: 10px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -37,26 +36,6 @@ header {
     align-items: center;
     width: 100%;
     padding: 0 20px;
-}
-
-.navbar-start {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.navbar-item {
-    color: #003366;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #00aaff;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.navbar-item:hover {
-    background-color: #005f99;
-    color: #ffffff;
 }
 
 .main-content {
@@ -136,4 +115,37 @@ header {
 
 .popup .button.is-danger {
     margin-top: 20px;
+}
+
+.darkMode{
+    font-family: Arial, sans-serif;
+    background-image: url('resized_trivia_game_image.png');
+    filter: brightness(50%) ;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: aqua;
+
+}
+button is-primary toggle{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+header .toggle {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
